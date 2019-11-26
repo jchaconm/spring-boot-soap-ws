@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://josechm.com/sb/soap-example">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:name>Sora</us:name>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
